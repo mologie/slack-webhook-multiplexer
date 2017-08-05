@@ -1,0 +1,19 @@
+{
+  "name": "slack-webhook-multiplexer",
+  "description": "Provides one Slack webhook API compatible endpoint, which forwards messages to many",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/softwific/slack-webhook-multiplexer"
+  },
+  "author": "Oliver Kuckertz <oliver.kuckertz@softwific.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/softwific/slack-webhook-multiplexer",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  }
+}
